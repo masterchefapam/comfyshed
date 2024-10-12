@@ -1,12 +1,14 @@
-import Navbar from "@/components/Navbar";
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import MapFilterItems from "./components/MapFilterItems";
+
+
 
 export default function Home() {
   return (
   
+   <div className="w-full">
  
-     <Button>Hello</Button>
- 
+     <MapFilterItems/>
+   </div>
+    
   );
 }

@@ -80,3 +80,14 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+.no-scrollbar::-webkit-scrollbar{
+  display: none;
+}
+
+
+.no-scrollbar{
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
