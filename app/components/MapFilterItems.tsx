@@ -22,8 +22,7 @@ const MapFilterItems = () => {
        params.set(name, value);
 
        return params.toString();
-    },
-    [searchParams]
+    },[searchParams]
   );
 
 
