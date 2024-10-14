@@ -27,7 +27,7 @@ const MapFilterItems = () => {
 
 
   return (
-       <div className='flex container mx-auto justify-between gap-x-10 mt-5 w-full overflow-x-scroll no-scrollbar'>
+       <div className='flex container mx-auto lg:px-10 justify-between gap-x-10 mt-5 w-full overflow-x-scroll no-scrollbar'>
    {categoryItems.map((item)=> (
         <Link key={item.id}  href={pathname + "?" + createQueryString("filter", item.name)}
           className={cn(
