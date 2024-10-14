@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import DesktopLogo from '../public/comfyshedlogo.png';
+import DesktopLogo from '../public/windowlogo.png';
 import MobileLogo from '../public/comfyshedlogo.png';
 
 import UserNav from './UserNav';
