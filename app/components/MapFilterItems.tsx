@@ -3,7 +3,7 @@
 
 import { categoryItems } from '../lib/categoryItems'
 import Link from 'next/link'
-import React, { useCallback } from 'react'
+import  { useCallback } from 'react'
 import Image from "next/image"
 import { usePathname, useSearchParams } from 'next/navigation'
 import { cn } from '@/lib/utils'
